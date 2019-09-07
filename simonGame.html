@@ -1,0 +1,33 @@
+<head>
+	<title>Simon Game</title>
+	<meta charset="utf-8">
+	<meta name="Simon Game">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="simonScript.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/SimonGameStyle.css">
+</head>
+<body>
+	<div class="container">
+		<div id="mainCircle">
+			<div id="0" class="part greenPart"></div>
+			<div id="1" class="part redPart"></div>
+			<div id="2" class="part yellowPart"></div>	
+			<div id="3" class="part bluePart "></div>
+			<div  id="internalCircle" class="buttons">
+				<div id="gameTag">SIMON</div>
+				<div id="screen">--</div>
+				<div id="startBtn" class="btn centerElement inactive">Start</div>
+				<div id="strictBtn" class="btn centerElement  inactive">Strict</div>
+				<div class="switchBtns">
+					<p class="offSwitch centerElement">Off</p>
+					<div class="centerElement switchBtn externalSwitch ">
+						<div class="internalSwitch"></div>
+						</div>
+					<p class="onSwitch centerElement">On</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
